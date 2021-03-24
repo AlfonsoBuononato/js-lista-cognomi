@@ -11,7 +11,9 @@ dopo l'ordinamento alfabetico*/
 
 var cognome = prompt("inserire il cognome.");
 
-console.log(cognome);
+while(!isNaN(cognome)){
+    var cognome = prompt("Devi inserire un cognome.");
+}
 
 //2. INSERIRE IL COGNOME IN UN ARRAY CON ALTRI COGNOMI.
 
