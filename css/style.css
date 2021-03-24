@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    padding: 20px 0;
+}
+
+ul{
+    padding-top: 50px;
+}
+
+li{
+    margin: 20px auto;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+}
+
+h2{
+    color: white;
+    padding-top: 50px;
+}

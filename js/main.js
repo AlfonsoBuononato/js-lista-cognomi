@@ -31,6 +31,13 @@ console.log(cognomi);
 
 var posizione = cognomi.indexOf(cognome);
 
-console.log(posizione + 1);
 
 
+//5. INSERIAMO LA LISTA NELL HTML
+
+for(var i = 0; i < cognomi.length; i++){
+
+    document.getElementById("lista-cognomi").innerHTML += "<li>" + cognomi[i] + "</li>";
+}
+
+document.getElementById("posizione-cognome").innerHTML = "La posizione del cognome inserito è: " + (posizione + 1);
